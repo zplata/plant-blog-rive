@@ -42,7 +42,7 @@ const Footer = () => {
               Read Documentation
             </a>
             <a
-              href={`https://github.com/rive-app/rive-react`}
+              href={`https://github.com/zplata/plant-blog-rive`}
               className="mx-3 font-bold hover:underline"
             >
               View on GitHub
