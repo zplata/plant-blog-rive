@@ -1,33 +1,20 @@
-import cn from 'classnames'
-import Link from 'next/link'
+import RiveBlogComponent from "./rive-blog-component";
+import dynamic from "next/dynamic";
 
 type Props = {
-  title: string
-  src: string
-  slug?: string
-}
+  title?: string;
+  src: string;
+  slug?: string;
+  artboard?: string;
+  animation?: string;
+};
 
-const CoverImage = ({ title, src, slug }: Props) => {
-  const image = (
-    <img
-      src={src}
-      alt={`Cover Image for ${title}`}
-      className={cn('shadow-sm', {
-        'hover:shadow-lg transition-shadow duration-200': slug,
-      })}
-    />
-  )
-  return (
-    <div className="sm:mx-0">
-      {slug ? (
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
-          <a aria-label={title}>{image}</a>
-        </Link>
-      ) : (
-        image
-      )}
-    </div>
-  )
-}
+const RiveNoSSR = dynamic(() => import("./rive-blog-component"), {
+  ssr: false,
+});
 
-export default CoverImage
+const CoverImage = (props: Props) => {
+  return <RiveNoSSR {...props} />;
+};
+
+export default CoverImage;

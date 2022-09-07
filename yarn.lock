@@ -93,6 +93,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rive-app/canvas@1.0.75":
+  version "1.0.75"
+  resolved "https://registry.yarnpkg.com/@rive-app/canvas/-/canvas-1.0.75.tgz#96a4805d5b0040828d3f8649c7b2b49984dbca7b"
+  integrity sha512-DLQL0Zhsg/XyTNlI2lwQiZ7hcSar87A0BfedB9EhmdVLl/m+y7P2zHUBtSZgpjtHPRf+XRhlLbrHyIKvZjgP9A==
+
+"@rive-app/react-canvas@^3.0.21":
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/@rive-app/react-canvas/-/react-canvas-3.0.21.tgz#6b6d51fc4f72615c7755b89b12868003f1a6b1ee"
+  integrity sha512-CzOxIg3wH6m8SWm0Xov/3PAzqBkn1ZFnDnjRPorg61wZow7wbE6Z9yiH+BzjJA7pewV2sZJhB6U3AMJEWjbMOw==
+  dependencies:
+    "@rive-app/canvas" "1.0.75"
+
 "@swc/helpers@0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.3.tgz#16593dfc248c53b699d4b5026040f88ddb497012"

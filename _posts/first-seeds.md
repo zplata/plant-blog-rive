@@ -1,11 +1,11 @@
 ---
-title: 'Preview Mode for Static Generation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/preview/cover.jpg'
+title: 'Starting with your first seeds'
+excerpt: 'Did you just get your first set of seeds to grow a plant? Congratulations! We all know the feeling. It is an exciting time ahead for you. If you are not sure where to start in your plant journey, start here!'
+coverImage: '/assets/rives/sunflower_button.riv'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
+  name: Robert
+  picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---
